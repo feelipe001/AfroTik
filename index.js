@@ -18,7 +18,7 @@ bot.on('message', async (msg) => {
 
             if (result && result.data && result.data.play) {
                 await bot.sendVideo(chatId, result.data.play, {
-                    caption: "✅ Aqui está seu vídeo sem marca d'água!
+                    caption: "Aqui está seu vídeo sem marca d'água!\n\n🔥 Aproveita e confere nossos outros serviços:",
 
 🔥 Aproveita e confere nossos outros serviços:",
                     reply_markup: {
